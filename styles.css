@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+
+:root {
+  --primary-color: #2f1fbd;
+  --dark-gray: #64748b;
+  --off-white: #f3f4f6;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+hr {
+  margin: 2rem 0rem;
+}
+
+.list-non-bullet {
+  list-style-type: none;
+  padding-inline-start: 0%;
+}
+
+.center-align {
+  text-align: center;
+  padding-inline-start: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  text-align: center;
+}
+
+.section h3 {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 0.5rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .footer-header {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.nav-brand {
+  font-weight: bold;
+}
+
+.heading-inverted {
+  color: var(--primary-color);
+}
+
+a {
+  margin-right: 1rem;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-envelope {
+  background: #970d0d;
+  color: white;
+}
+
+.input-text {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  width: 75%;
+}
+
+h3 {
+  color: var(--primary-color);
+}
+
+table {
+  border: 2px solid;
+  width: 80%;
+  color: var(--primary-color);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid;
+  width: 80%;
+  color: var(--primary-color);
+  border-collapse: collapse;
+  padding: 0.5rem;
+}

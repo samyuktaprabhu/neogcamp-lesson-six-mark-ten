@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <h1 class="nav-brand">Cash Register</h1>
+    </nav>
+
+    <section >
+        <div class="container container-center">
+            <h2>Let's calculate the change you need to return to your customer</h2>
+          
+            <h3>Enter the total bill value</h3>
+            <input id="bill-value" class="input-text" type="number"></input>
+            <h3>Enter the cash amount customer provided</h3>
+            <input id="cash-value" class="input-text" type="number"></input>
+            <br/>
+            <br/>
+            <a id="btn-calculate" class="link link-primary"> Calculate change </a>
+            <h3 id="output-text"></h3>
+            <br/>
+            <br/>
+            <table>
+                <caption><b>Change to return</b></caption>
+                <tr>
+                    <th>Note</th>
+                    <th>Number of notes</th>
+                </tr>
+                <tr>
+                    <td>Rs. 2000</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Rs. 500</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Rs. 100</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Rs. 20</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Rs. 10</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Rs. 5</td>
+                    <td class="amount"></td>
+                </tr>
+                <tr>
+                    <td>Rs. 1</td>
+                    <td class="amount"></td>
+                </tr>
+            </table>
+        </div>
+        </section>
+
+    <footer class="footer">
+      <h3 class="footer-header">Hope you had fun!</h3>
+      <li class="list-item-inline">
+        <a
+          class="fa fa-linkedin"
+          target="_blank"
+          href="https://www.linkedin.com/in/m-samyuktha-prabhu/"
+        ></a>
+      </li>
+      <li class="list-item-inline">
+        <a
+          class="fa fa-envelope"
+          target="_blank"
+          href="mailto:samyuktaprabhu@gmail.com"
+        ></a>
+      </li>
+      <li class="list-item-inline">
+        <a
+          class="fa fa-twitter"
+          target="_blank"
+          href="https://twitter.com/msamyuktaprabhu"
+        ></a>
+      </li>
+      <li class="list-item-inline">
+        <a
+          class="fa fa-github"
+          target="_blank"
+          href="https://github.com/samyuktaprabhu"
+        ></a>
+      </li>
+    </footer>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
